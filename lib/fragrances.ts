@@ -69,7 +69,7 @@ export const fragrances: Fragrance[] = [
       "Bengal in the afternoon can be intense. The heat settles over the streets. The air feels heavy. And then comes the sharp scent of a Gondhoraj lime — cut open, bright and unmistakably fresh.",
     ],
     notes: ["Gondhoraj lime", "Citrus", "Green notes"],
-    price: 999,
+    price: 1000,
     volumeMl: 50,
     images: { scene: sceneGondhoraj, tile: tileGondhoraj, bottle: bottleGondhoraj },
     alt: {
@@ -78,7 +78,7 @@ export const fragrances: Fragrance[] = [
       bottle: "The GONDHORAJ 50 ml eau de parfum bottle",
     },
     metaDescription:
-      "GONDHORAJ, an eau de parfum inspired by Bengal. Gondhoraj lime, citrus and green notes. 50 ml, ₹999, bottled in India.",
+      "GONDHORAJ, an eau de parfum inspired by Bengal. Gondhoraj lime, citrus and green notes. 50 ml, ₹1000, bottled in India.",
   },
   {
     slug: "first-rain",
@@ -100,7 +100,7 @@ export const fragrances: Fragrance[] = [
       "In Kerala, rain doesn't simply arrive. It changes the air. It darkens the earth. Leaves begin to shine, the roads turn quiet, and the scent of wet soil rises with the first drops.",
     ],
     notes: ["Fresh green", "Earthy", "Woody"],
-    price: 999,
+    price: 1000,
     volumeMl: 50,
     images: { scene: sceneFirstRain, tile: tileFirstRain, bottle: bottleFirstRain },
     alt: {
@@ -109,7 +109,7 @@ export const fragrances: Fragrance[] = [
       bottle: "The FIRST RAIN 50 ml eau de parfum bottle",
     },
     metaDescription:
-      "FIRST RAIN, an eau de parfum inspired by Kerala. Fresh green, earthy and woody. 50 ml, ₹999, bottled in India.",
+      "FIRST RAIN, an eau de parfum inspired by Kerala. Fresh green, earthy and woody. 50 ml, ₹1000, bottled in India.",
   },
   {
     slug: "gul",
@@ -130,7 +130,7 @@ export const fragrances: Fragrance[] = [
       "Kashmir changes after sunset. The noise fades. The mountains become silhouettes. Windows begin to glow against the cold, and somewhere in the quiet, roses carry through the evening air.",
     ],
     notes: ["Rose", "Floral", "Warm woods"],
-    price: 999,
+    price: 1000,
     volumeMl: 50,
     images: { scene: sceneGul, tile: tileGul, bottle: bottleGul },
     alt: {
@@ -139,7 +139,7 @@ export const fragrances: Fragrance[] = [
       bottle: "The GUL 50 ml eau de parfum bottle",
     },
     metaDescription:
-      "GUL, an eau de parfum inspired by Kashmir after dark. Rose, floral and warm woods. 50 ml, ₹999, bottled in India.",
+      "GUL, an eau de parfum inspired by Kashmir after dark. Rose, floral and warm woods. 50 ml, ₹1000, bottled in India.",
   },
   {
     slug: "jalsa",
@@ -160,7 +160,7 @@ export const fragrances: Fragrance[] = [
       "The first local before sunrise. The sound of shutters opening. Rain against old windows. Conversations spilling onto balconies. The glow of the city long after the sun goes down.",
     ],
     notes: ["Mogra", "Floral", "Warm woods"],
-    price: 999,
+    price: 1000,
     volumeMl: 50,
     images: { scene: sceneJalsa, tile: tileJalsa, bottle: bottleJalsa },
     alt: {
@@ -169,7 +169,7 @@ export const fragrances: Fragrance[] = [
       bottle: "The JALSA 50 ml eau de parfum bottle",
     },
     metaDescription:
-      "JALSA, an eau de parfum inspired by old Bombay. Mogra, floral and warm woods. 50 ml, ₹999, bottled in India.",
+      "JALSA, an eau de parfum inspired by old Bombay. Mogra, floral and warm woods. 50 ml, ₹1000, bottled in India.",
   },
   {
     slug: "thaat",
@@ -190,7 +190,7 @@ export const fragrances: Fragrance[] = [
       "As the sun begins to fall over Rajasthan, the pink walls catch the last light. The air carries warmth from stone, traces of spice, aged wood and the quiet richness of old rooms. Everything feels still, yet nothing feels empty.",
     ],
     notes: ["Warm spice", "Wood", "Amber"],
-    price: 999,
+    price: 1000,
     volumeMl: 50,
     images: { scene: sceneThaat, tile: tileThaat, bottle: bottleThaat },
     alt: {
@@ -199,7 +199,7 @@ export const fragrances: Fragrance[] = [
       bottle: "The THAAT 50 ml eau de parfum bottle",
     },
     metaDescription:
-      "THAAT, an eau de parfum inspired by Rajasthan after sunset. Warm spice, wood and amber. 50 ml, ₹999, bottled in India.",
+      "THAAT, an eau de parfum inspired by Rajasthan after sunset. Warm spice, wood and amber. 50 ml, ₹1000, bottled in India.",
   },
 ];
 
@@ -209,7 +209,7 @@ export function getFragrance(slug: string) {
 
 export const fragranceSlugs = fragrances.map((fragrance) => fragrance.slug);
 
-/** "₹999" — the same formatting the print copy uses. */
+/** "₹1000" — the same formatting the print copy uses. */
 export function formatPrice(price: number) {
   return `₹${price.toLocaleString("en-IN")}`;
 }
